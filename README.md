@@ -1,45 +1,37 @@
-# Mar em Ruínas — Simulação de Microplásticos
+# Mar em Ruínas
 
-Projeto interativo desenvolvido com foco em conscientização ambiental sobre os impactos dos microplásticos nos ecossistemas aquáticos e na saúde humana.
+Simulação educativa sobre microplásticos, bioacumulação e impacto ambiental.
 
-A aplicação simula um oceano inicialmente saudável e permite que o usuário visualize como resíduos plásticos afetam a água, os animais marinhos e toda a cadeia alimentar. Conforme a interação acontece, o sistema revela microplásticos invisíveis a olho nu através de zoom, partículas dinâmicas e mudanças visuais no ambiente.
+## Executar
 
-## Objetivos
+```bash
+npm install
+npm run dev
+```
 
-- Demonstrar os impactos da poluição plástica nos oceanos;
-- Explicar como microplásticos entram na cadeia alimentar;
-- Criar conscientização ambiental de forma visual e interativa;
-- Incentivar práticas sustentáveis e descarte correto de resíduos.
+## Validar
 
-## Funcionalidades
+```bash
+npm run check
+```
 
-- Simulação de oceano interativo;
-- Sistema de zoom para visualização de microplásticos;
-- Adição de resíduos poluentes;
-- Alteração dinâmica da qualidade da água;
-- Cadeia alimentar animada;
-- Sidebar informativa com dados ambientais;
-- Quiz educativo com impacto direto na simulação;
-- Sistema visual de evolução da poluição.
-
-## Tecnologias Utilizadas
+## Tecnologias
 
 - React
 - TypeScript
-- TailwindCSS
 - Vite
+- Tailwind CSS
 - Zustand
-- Framer Motion
-- Canvas API
+- Radix UI
 
-## Estrutura do Projeto
+## Estrutura
 
-O projeto foi arquitetado de forma modular para facilitar escalabilidade, manutenção e futuras expansões da simulação.
-
-## Propósito Educacional
-
-“Mar em Ruínas” busca transformar informação ambiental em uma experiência interativa e imersiva, permitindo que o usuário compreenda visualmente como pequenas ações cotidianas podem impactar diretamente os oceanos e a vida marinha.
-
-## Status
-
-🚧 Projeto em desenvolvimento
+```text
+src/
+  components/   Componentes compartilhados e UI
+  data/         Conteúdo estático
+  features/     Simulação, cadeia alimentar e quiz
+  pages/        Composição das páginas
+  store/        Estado global da simulação
+  types/        Tipos do domínio
+```

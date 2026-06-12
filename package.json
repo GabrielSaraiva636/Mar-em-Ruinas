@@ -1,0 +1,37 @@
+{
+  "name": "mar-em-ruinas-simulacao-microplasticos",
+  "version": "0.1.0",
+  "description": "Simulação interativa educativa sobre microplásticos no oceano",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "check": "npm run type-check && npm run build"
+  },
+  "dependencies": {
+    "@radix-ui/react-progress": "^1.1.9",
+    "@radix-ui/react-slider": "^1.4.0",
+    "@radix-ui/react-slot": "^1.2.5",
+    "@radix-ui/react-tabs": "^1.1.14",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^3.6.0",
+    "zustand": "^4.3.10"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
